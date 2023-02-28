@@ -1,0 +1,213 @@
+@media only screen and (max-width: 400px){
+    html{
+        scroll-behavior: smooth;
+        width: 400px;
+    }
+    body{
+        line-height: 1.4;
+    }
+    .header{
+        width: 100%;
+    }
+    .kindle{
+        width: 100%;
+        background-color: #FF871C;
+    }
+    .perfect__book h1{
+        width: 100%;
+        margin-bottom: 4%;
+        margin-left: -4%;
+    }
+    .perfect__book p{
+        width: 100%;
+        margin-bottom: 4%;
+        margin-left: -4%;
+    }
+    .perfect__book button{
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        border-radius: 20px;
+        border: none;
+        color: #FF871C;
+        margin-bottom: 4%;
+        margin-left: 11%;
+    }
+    .total__title{
+        width: 180px;
+        height: 180px;
+        border: 3px solid #FE8A43;
+        border-radius: 10px;
+        padding-top: 10px;
+        margin-left: -2%;
+    }
+    .perfect__book h3{
+        color: white;
+        font-size: 0.8rem;
+        font-family: Ubuntu;
+        margin-left: -6%;
+    }
+    .book__overview{
+        width: 100%;
+        padding: 4rem 0;
+        margin-left: -6%;
+    }
+    .total__title{
+        width: 220px;
+        height: 180px;
+        border: 3px solid #FE8A43;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+    .chapter__item{
+        width: 220px;
+    }
+    .chapter__item i{
+        background: #ffff;
+        color: #FF871C;
+        font-size: 3rem;
+        margin-left: 35%;
+        margin-bottom: 10px;
+    } 
+    .check__review h2{
+        width: 400%;
+        color: white;
+        font-size: 2rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-left: -160%;
+    }
+    .check__review p{
+        width: 500%;
+        color: #ffff;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: -210%;
+    }
+    .check__video iframe{
+        width: 300px;
+        height: 340px;
+        margin-left: -260%;
+    }
+    .about__img img{
+        border-radius: 10px;
+        width: 280px;
+        height: 320px;
+        margin-left: -8%;
+    }
+    .social__media{
+        padding-top: 2rem;
+        width: 250px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-left: -4%;
+    }
+    .author__our h3{
+        color: black;
+        font-family: sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-left: -14%;
+    }
+    .author__our p{
+        text-align: center;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 6rem;
+        margin-left: -1%;
+    }
+    .standard__item{
+        width: 300px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-left: -15%;
+    }
+    .standard__lorem{
+        width: 300px;
+        height: 298px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: -15%;
+    }
+    .professional__item{
+        width: 300px;
+        height: 150px;
+        border: none;
+        border-radius: 10px;
+        background-color: #FE8A43;
+        margin-left: -15%;
+    }
+    .professional__lorem{
+        width: 300px;
+        height: 298px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 2px;
+        background-color: #FE8A43;
+        margin-left: -15%;
+    }
+    .price__title h2{
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: Ubuntu;
+    }
+    .price__item p{
+        padding-top: 1rem;
+        text-align: center;
+        width: 85%;
+        color: white;
+        margin-left: 6%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .testimonials__title h2{
+        width: 100%;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .testimonials__item input{
+        width: 350%;
+        margin-left: -120%;
+    }
+    .social__media1{
+        padding: 1rem;
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 30%;
+        gap: 1rem;
+    }
+    .testimonials__item textarea{
+        width: 350%;
+        margin-left: -120%;
+    }
+    .testimonials__item input[type="submit"]{
+        width: 155%;
+        margin-left: -20%;
+        color: white;
+        background-color: #FE8A43;
+        border: none;
+    }
+    .social__media1{
+        padding: 1rem;
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: -15%;
+        gap: 1rem;
+    }
+    .standard__lorem button{
+        margin-left: 23%;
+    }
+    .professional__lorem button{
+        margin-left: 23%;
+    }
+}

@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Libre+Baskerville:ital@1&family=Rampart+One&family=Roboto+Slab:wght@900&family=Rowdies:wght@300&family=Shantell+Sans:ital,wght@1,800&family=Ubuntu:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.kindle{
+    width: 100%;
+    background-color: #FF871C;
+}
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4rem 0;
+    align-items: center;
+}
+.navigation a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Rampart One;
+    font-size: 1rem;
+}
+.navigation a:hover, a:focus{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: 2s;
+}
+.perfect{
+    width: 100%;
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+.perfect__img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.perfect__book{
+    width: 100%;
+}
+.perfect__book h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: Ubuntu;
+    width: 80%;
+    margin-bottom: 4%;
+}
+.perfect__book p{
+    color: white;
+    width: 90%;
+    margin-bottom: 4%;
+}
+.perfect__book button{
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-radius: 20px;
+    border: none;
+    color: #FF871C;
+    margin-bottom: 2%;
+}
+.perfect__book h3{
+    color: white;
+    font-size: 0.8rem;
+    font-family: Ubuntu;
+}
+.total{
+    width: 100%;
+    background-color: #ffff;
+}
+.total__item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+.total__title{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #FE8A43;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.total__title i{
+    background: #ffff;
+    color: #FF871C;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 37%;
+    margin-bottom: 10px;
+}
+.total__title h3{
+    color: #FF871C;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.total__title h2{
+    color: black;
+    text-align: center;
+    font-family: Ubuntu;
+}
+.overview{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.overview__title{
+    width: 100%;
+}
+.book__overview{
+    width: 100%;
+    padding: 4rem 0;
+}
+.book__overview h2{
+    color: black;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.book__overview p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.overview__item{
+    width: 100%;
+    padding-bottom: 6rem;
+}
+.chapter__one{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 25px;
+}
+.chapter__five{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.chapter__item{
+    width: 230px;
+    height: 220px;
+    border: 1px solid black;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.chapter__item i{
+    background: #ffff;
+    color: #FF871C;
+    font-size: 3rem;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}   
+.chapter__item h2{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Ubuntu;
+    margin-bottom: 10px;
+}
+.chapter__item p{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.check__out{
+    width: 100%;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+}
+.check__title{
+    width: 100%;
+    padding: 6rem;
+}
+.check__review h2{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.check__review p{
+    color: #ffff;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.about{
+    width: 100%;
+    background-color: #ffff;
+}
+.author h2{
+    color: black;
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Ubuntu;
+    padding-bottom: 5rem;
+}
+.about__item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+.about__img img{
+    border-radius: 10px;
+}
+.about__title h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Roboto Slab;
+    padding-bottom: 2rem;
+}
+.about__title p{
+    opacity: 0.80;
+    padding-bottom: 1.2rem;
+}
+.about__title img{
+    margin-top: 3rem;
+}
+.social__media{
+    padding-top: 2rem;
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.social__item{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #FE8A43;
+}
+.social__media i{
+    font-size: 25px;
+    margin-left: 25%;
+    padding-top: 20%;
+    color: white;
+}
+.author__plan{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.author__content{
+    width: 100%;
+    padding: 4rem 0;
+}
+.author__our h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.author__our p{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 6rem;
+}
+.author__title{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.author__item{
+    width: 330px;
+    height: 450px;
+    border-radius: 10px;
+}
+.standard__item{
+    width: 100%;
+    height: 150px;
+   background-color: #fff;
+    border-radius: 10px;
+}
+.professional__item{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FE8A43;
+}
+.standard__lorem{
+    width: 100%;
+    height: 298px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.professional__lorem{
+    width: 100%;
+    height: 298px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2px;
+    background-color: #FE8A43;
+}
+.standard__item h3{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+.pul{
+    font-size: 1.8rem;
+    margin-left: 45%;
+}
+.standard__item h4{
+    font-size: 3rem;
+    font-family: Ubuntu;
+    margin-left: 40%;
+}
+.professional__item h3{
+    color: white;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.professional__item span{
+    font-size: 1.8rem;
+    margin-left: 45%;
+    color: white;
+}
+.professional__item h4{
+    font-size: 3rem;
+    font-family: Ubuntu;
+    margin-left: 40%;
+    color: white;
+}
+.standard__lorem p{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+}
+.standard__lorem button{
+    background-color: white;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+.professional__lorem p{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+    color: white;
+}
+.professional__lorem button{
+    background-color: white;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 25px;
+    border: none;
+}
+.price{
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/pricebg.jpg);
+    background-size: cover;
+}
+.price__title{
+    width: 100%;
+    padding: 4rem 0;
+}
+.price__title h2{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Ubuntu;
+}
+.price__item p{
+    padding-top: 9rem;
+    text-align: center;
+    width: 85%;
+    color: white;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+.price__img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-image: url(/images/priceuser.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.price__item h4{
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: Ubuntu;
+}
+.price__item h3{
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.testimonials{
+    width: 100%;
+}
+.testimonials__title{
+    width: 100%;
+    padding: 4rem;
+}
+.testimonials__title h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.testimonials__title p{
+    width: 90%;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 5rem;
+}
+.testimonials__item{
+    width: 70%;
+    margin: 0 auto;
+}
+.testimonials__item input{
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 1.4rem;
+    border: 0.5px solid black;
+
+}
+.testimonials__item input:focus, input:hover{
+    border: 0.5px solid #FE8A43;
+    color: #FE8A43;
+}
+.testimonials__item textarea{
+    width: 100%;
+    padding-top: 0.2rem;
+    padding-bottom: 4rem;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 1.4rem;
+}
+.testimonials__item input[type="submit"]{
+    width: 25%;
+    margin-left: 35%;
+    color: white;
+    background-color: #FE8A43;
+    border: none;
+}
+.karta{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+}
+.social__media1{
+    padding: 1rem;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 34%;
+    gap: 1rem;
+}
+.social__png{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #FE8A43;
+    border-radius: 100%;
+}
+.social__png i{
+    font-size: 2rem;
+    color: #FE8A43;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.footer p{
+    text-align: center;
+    font-family: sans-serif;
+}   

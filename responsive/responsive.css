@@ -1,0 +1,155 @@
+@media only screen and (max-width: 768px){
+    .navigation a{
+        display: none;
+    }
+    .perfect{
+        width: 100%;
+        padding-top: 6rem;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        padding-bottom: 5rem;
+    }
+    .perfect__book h1{
+        font-size: 1.9rem;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .perfect__book p{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .perfect__book button{
+        margin-bottom: 2%;
+        margin-left: 32%;
+    }
+    .perfect__book h3{
+        color: white;
+        font-size: 0.8rem;
+        font-family: Ubuntu;
+        text-align: center;
+    }
+    .total__item{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 4rem;
+    }
+    .total__title{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .total__title i{
+        background: #ffff;
+        color: #FF871C;
+        font-size: 3rem;
+        margin-left: 42%;
+        margin-bottom: 10px;
+    }
+    .chapter__one{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    .chapter__five{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .chapter__item{
+        width: 450px;
+    }
+    .chapter__item i{
+        background: #ffff;
+        color: #FF871C;
+        font-size: 3rem;
+        margin-left: 44%;
+        margin-bottom: 10px;
+    }
+    .check__out{
+        width: 100%;
+        background-image: url(/images/bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .check__review h2{
+        color: white;
+        font-size: 3rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .check__review p{
+        color: #ffff;
+        font-size: 1.5rem;
+        margin-bottom: 10%;
+        margin-left: -70px;
+        width: 400px;
+    }
+    .check__video iframe{
+        width: 600px;
+        margin-left: -170px;
+    }
+    .about__item{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-bottom: 4rem;
+    }
+    .about__img img{
+        border-radius: 10px;
+        margin-left: -20px;
+    }
+    .author__title{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+        align-items: center;
+    }
+    .author__item{
+        width: 400px;
+        height: 450px;
+        border-radius: 10px;
+        margin-left: 30px;
+    } 
+    .standard__lorem button{
+        margin-left: 30%;
+        margin-top: 25px;
+    } 
+    .professional__lorem button{
+        margin-left: 30%;
+        margin-top: 25px;
+        border: none;
+    }
+    .price{
+        width: 100%;
+        height: 90vh;
+        background-image: url(/images/pricebg.jpg);
+        background-size: cover;
+        background-position: center;
+    }    
+    .testimonials__title p{
+        width: 150%;
+        text-align: center;
+        margin-left: -25%;
+        margin-bottom: 5rem;
+    }
+    .testimonials__item input{
+        width: 200%;
+        margin-left: -50%;
+    }         
+    .testimonials__item textarea{
+        width: 200%;
+        margin-left: -50%;
+    }
+    .testimonials__item input[type="submit"]{
+        width: 60%;
+        margin-left: 18%;
+    }
+    .social__media1{
+        margin-left: 15%;
+    }
+}
